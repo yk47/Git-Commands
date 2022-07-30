@@ -1,0 +1,42 @@
+Basic Git Steps:
+============
+
+
+Step 1: Create Remote Repository (On Github)
+Step 2: Config Git 
+(git config --global user.name "FIRST_NAME LAST_NAME" / git config --global user.email "MY_NAME@gmail.com")
+
+
+Step 3: Create Local Repo (git init)
+Step 4: Connect Local Repo to Remote Repo (git remote add origin "Remote Repo URL")
+Step 4: Add source files to staging area (git add file-name / git add .)
+Step 5: Add source files from staging  area to local repo (git commit -m "Added/Modified: Commit message")
+Step 6: Push code from Local Repo to Remote Repo (git push -u origin master)
+
+
+
+
+Creating Branches & Merging with Master:
+====================================
+1. Create branch (git checkout -b branch-name)
+2. Push local branch to remote (git push -u origin branch-name)
+3. Merging branch to master (git checkout master  /  git merge branch-name)
+4. Push Local Changes from Local to Remote (git push -u origin master)
+
+
+
+
+
+
+Pull Remote changes in Local Repository
+=================================
+git pull origin master
+
+
+
+
+Get any project on Remote in to Local
+==============================
+
+
+git clone "Remote Repo URL"
