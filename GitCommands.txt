@@ -1,3 +1,5 @@
+How to pull/push/commit
+
 Basic Git Steps:
 ============
 
